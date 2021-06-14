@@ -1,19 +1,16 @@
 <div class="content">
   <div class="front">
-          {{#if topic.thumbnails}}
+      {{#if topic.thumbnails}}
        <img src={{fallbackSrc}} srcset={{srcset}} width={{width}} height={{height}} loading="lazy" class="topic-tile-thumbnail">
       {{/if}}
   </div>
   <div class="back">
-      {{#if topic.thumbnails}}
-        <img src={{fallbackSrc}} srcset={{srcset}} width={{width}} height={{height}} loading="lazy" class="topic-tile-thumbnail">
-      {{/if}}
       <a href={{url}}>
         <div class="topic-info">
           <span class="topic-title">{{topic.title}}</span>
           <span class="author">
             {{#user-link user=topic.creator}}
-            {{avatar topic.creator imageSize="large"}}
+            {{avatar topic.creator imageSize="small"}}
             {{/user-link}}
           </span>
         </div>
