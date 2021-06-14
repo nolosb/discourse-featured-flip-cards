@@ -63,3 +63,4 @@ export default Component.extend({
       : topic.get("lastUnreadUrl");
   },
 });
+
