@@ -1,7 +1,7 @@
 <div class="content">
   <div class="front">
           {{#if topic.thumbnails}}
-       <img src={{fallbackSrc}} srcset={{srcset}} width={{width}} height={{height}} loading="lazy" class="topic-tile-thumbnail">
+       <img src={{fallbackSrc}} srcset={{srcset}} width={{width}} height={{height}} loading="lazy" class={{category.name}}>
       {{/if}}
   </div>
   <div class="back">
