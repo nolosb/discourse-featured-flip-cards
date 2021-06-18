@@ -25,4 +25,4 @@ display_categories:
   default: ""
 maximum_topic_count: 6
 scope_to_category: false
-display_mobile: false
+display_mobile: true
